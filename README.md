@@ -4,33 +4,33 @@
 
 ```
 portfolio/
-├── index.html          ← Homepage (the grid)
-├── style.css           ← All global styles
-├── main.js             ← Tiny JS (animations, year)
+├── index.html          
+├── style.css           
+├── main.js             
 │
 ├── pages/
 │   ├── about.html
 │   ├── portfolio.html
 │   ├── resume.html
-│   ├── blog.html       ← Auto-loads post list from posts.json
+│   ├── blog.html       
 │   └── contact.html
 │
 ├── blog/
-│   ├── post-template.html   ← Single post renderer
-│   ├── blog-loader.js       ← Fetches & renders .md files
-│   ├── blog.css             ← Blog-specific styles
-│   ├── posts.json           ← LIST OF ALL POSTS (edit this when adding a post)
+│   ├── post-template.html   
+│   ├── blog-loader.js       
+│   ├── blog.css             
+│   ├── posts.json           
 │   └── posts/
 │       ├── hello-world.md
 │       └── why-i-code.md
 │
 └── assets/
     ├── img/
-    │   ├── profile.jpg        ← Your photo (used in the big square)
+    │   ├── profile.jpg        
     │   ├── about-thumb.jpg
     │   ├── portfolio-thumb.jpg
     │   ├── resume-thumb.jpg
     │   ├── blog-thumb.jpg
     │   └── contact-thumb.jpg
-    └── resume.pdf             ← Your actual CV
+    └── resume.pdf             
 ```
